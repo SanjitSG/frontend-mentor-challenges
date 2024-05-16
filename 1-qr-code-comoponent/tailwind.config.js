@@ -9,6 +9,13 @@ module.exports = {
         "Grayish-blue": "hsl(220, 15%, 55%)",
         "Dark-blue": "hsl(218, 44%, 22%)",
       },
+      fontFamily: {
+        outfit: ["Outfit", "sans-serif"],
+      },
+      fontWeight: {
+        regular: "400",
+        bold: "700",
+      },
     },
   },
   plugins: [],
