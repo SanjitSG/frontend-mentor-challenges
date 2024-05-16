@@ -12,10 +12,10 @@ const Body = () => {
         />
       </div>
       <div className="w-72 h-32 text-center">
-        <h1 className="font-bold text-[20px] text-[#1F314F]">
+        <h1 className="font-bold text-[20px] text-Dark-blue">
           Improve your front-end skills by building projects
         </h1>
-        <p className="text-[15px] text-[#7D889E]">
+        <p className="text-[15px] text-Grayish-blue">
           Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
         </p>
       </div>
