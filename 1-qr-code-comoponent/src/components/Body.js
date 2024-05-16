@@ -12,7 +12,7 @@ const Body = () => {
         />
       </div>
 
-      <div className="w-72 h-32 text-center flex flex-col border border-black">
+      <div className="w-72 h-32 text-center flex flex-col">
         <h1 className="font-bold text-Dark-blue text-[22px] leading-7">
           Improve your front-end skills by building projects
         </h1>
