@@ -1,3 +1,5 @@
-# frontend-mentor-challenges
+## frontend-mentor-challenges
 
-- qr-code-component
+1. qr-code-component
+2. blog-preview-card
+3. mortgage-repayment-card
