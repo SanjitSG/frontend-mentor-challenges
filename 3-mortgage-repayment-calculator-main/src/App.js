@@ -1,7 +1,9 @@
+import MainContainer from "./components/MainContainer";
+
 function App() {
   return (
-    <div>
-      <h1 className="font-semibold">mortgage calculator</h1>
+    <div className="w-full h-screen flex justify-center items-center bg-cyan-400">
+      <MainContainer />
     </div>
   );
 }
