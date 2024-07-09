@@ -4,7 +4,7 @@ import ResultContainer from "./ResultContainer";
 
 const MainContainer = () => {
   return (
-    <div>
+    <div className="space-y-1">
       <InputContainer />
       <ResultContainer />
     </div>
