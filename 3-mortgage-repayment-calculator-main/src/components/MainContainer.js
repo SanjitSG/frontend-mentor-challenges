@@ -4,7 +4,7 @@ import ResultContainer from "./ResultContainer";
 
 const MainContainer = () => {
   return (
-    <div className="space-y-1">
+    <div className="bg-white  p-4 md:rounded-xl shadow-xl md:flex md:flex-row">
       <InputContainer />
       <ResultContainer />
     </div>
