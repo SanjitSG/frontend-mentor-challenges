@@ -8,7 +8,7 @@ const handleSubmit = (e) => {
 };
 const InputContainer = () => {
   return (
-    <div className="my-3">
+    <div className="m-2 p-3 md:w-6/12">
       <form
         onSubmit={handleSubmit}
         className="space-y-3"
@@ -20,6 +20,7 @@ const InputContainer = () => {
           <h2 className="text-Slate900 text-2xl font-bold">Mortgage Calculator</h2>
           <p className="underline cursor-pointer text-sm text-Slate500">Clear All</p>
         </div>
+        {/* input 1 */}
         <div className="mx-1 space-y-1">
           <label
             htmlFor="mortgage-amount"
@@ -28,13 +29,15 @@ const InputContainer = () => {
             Mortgage Amount
           </label>
           <div className="border border-Slate500 rounded-md overflow-hidden">
-            <span className="font-bold w-2/12 py-3 px-4 bg-Slate100">£</span>
+            <span className="font-bold  py-3 px-4 bg-Slate100">£</span>
             <input
               type="text"
-              className="outline-none w-10/12 py-2 pl-1 text-xl text-primaryLime"
+              className="outline-none py-2 pl-1 text-xl text-primaryLime border-black border"
             />
           </div>
         </div>
+
+        {/* input 2 */}
         <div className="space-y-1">
           <div>
             <label
@@ -51,6 +54,8 @@ const InputContainer = () => {
               <span className="font-bold py-3 px-4 bg-Slate100 w-3/12 right-0">years</span>
             </div>
           </div>
+
+          {/* input 3 */}
           <>
             <label
               htmlFor="interest"
